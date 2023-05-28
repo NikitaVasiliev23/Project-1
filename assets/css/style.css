@@ -1,0 +1,409 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../font/Montserrat-VariableFont_wght.ttf');
+}
+
+:root {
+    --white: #ffffff;
+    --black: #000000;
+    --gray: #554A4A;
+    --alabaster-white: #EDEDED;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    min-width: 300px;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    min-width: 300px;
+}
+
+
+.bold {
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 22px;
+}
+
+.gr {
+    display: grid;
+}
+
+.fl {
+    display: flex;
+}
+
+.fd-col {
+    flex-direction: column;
+}
+
+.fw-w {
+    flex-wrap: wrap;
+}
+
+.jc-c {
+    justify-content: center;
+}
+
+.ai-fe{
+    align-items: flex-end;
+}
+
+.jc-sb {
+    justify-content: space-between;
+}
+
+.jc-sa {
+    justify-content: space-around;
+}
+
+.ai-c {
+    align-items: center;
+}
+
+.btn {
+    width: 292px;
+    height: 50px;
+    background: var(--white);
+    margin: 40px 0 0 0;
+    border: solid var(--black) 1px;
+    font-size: 18px;
+    letter-spacing: 2.5px;
+    line-height: 24px;
+}
+
+.top {
+    padding: 0 0 50px 0;
+    margin: 80px 0 0 0 ;
+}
+
+.bottom{
+    padding: 0 0 80px 0;
+}
+
+.white-text {
+    color: var(--white);
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+span{
+    font-size: 10px;
+}
+
+.info{
+    font-size: 22px;
+    line-height: 160%;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.btn:hover {
+    background: var(--black);
+    color: var(--white);   
+}
+
+/* style-for-header */
+.page-header {
+    background: var(--gray);
+    height: 100px;
+}
+
+.logo {
+    height: 32px;
+    width: 253px;
+}
+
+nav{
+    width: 800px;
+}
+
+.navbar{
+    list-style: none;
+}
+
+#burger-check {
+    display: none;
+}
+
+.burger {
+    display: none;
+    width: 50px;
+    height: 50px;
+}
+
+/* style-for-cover */
+.cover {
+    background: url('../images/Rectangle1\(2\).svg') no-repeat;
+    background-size: 100%;
+    height: 700px;
+}
+
+.slogan{
+    padding: 0 0 125px 0;
+}
+
+/*block about the game */
+
+.about-the-game{
+    min-width: 300px;
+}
+
+img {
+    height: auto;
+    width: 100%;
+    max-width: 589px;
+}
+
+.info-1{
+    padding: 0 50px 0 0;
+    width: 100%;
+    max-width: 554px;
+}
+
+/*block about the game */
+
+.about-the-plot{
+    min-width: 300px;
+}
+
+.info-2{
+    padding: 0 0 0 50px;
+    width: 100%;
+    max-width: 552px;
+}
+
+/*block-characteristics-pc*/
+.characteristics-pc{
+    min-width: 300px;
+}
+
+.line{
+    border-left: 1px solid var(--gray);
+    height: 190px;
+}
+
+.min-characteristics{
+    width: 512px;
+    font-size: 22px;
+    margin: 0 0 50px 0;
+}
+
+.rec-characteristics{
+    width: 455px;
+    font-size: 22px;
+}
+.list{
+    margin: 30px 0 0 25px;
+    font-size: 20px;
+}
+
+/*block-cast*/
+
+.cast{
+    min-width: 300px;
+}
+
+.actor-card{
+    width: 380px;
+    height: 200px;
+    background:var(--white);
+    border-radius: 20px;
+    filter: drop-shadow(0px 4px 4px var(--black));
+}
+
+.photo-actor{
+    width: 110px;
+    height: 160px;
+    margin: 0 36px 0 20px;
+}
+
+.text{
+    width: 200px;
+    height: 130px;
+}
+
+.person{
+    margin: 25px 0;
+    font-size: 18px;
+}
+
+.actor{
+    font-size: 16px;
+}
+
+/*block-for-video*/
+
+.video{
+    min-width: 300px;
+}
+
+iframe{
+    width:590px;
+    height:335px;
+}
+
+/*block-registration*/
+.registration{
+    min-width: 300px;
+}
+
+form{
+    height: auto;
+    width: 100%;
+    max-width: 545px;
+    padding: 50px 60px 0 0;
+}
+
+input,select{
+    height: 50px;
+    background: var(--alabaster-white);
+    border: none;
+    padding: 0 20px ;
+}
+
+label{
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+input[type="checkbox"]{
+    width: 24px;
+    height: 24px;
+    margin: 0 10px 0 0;
+}
+
+form input[type="submit"]{
+ border: solid var(--black) 1px;
+ border-radius: 0px;
+ margin: 30px 0 ;
+}
+
+.img-form{
+    height: auto;
+    width: 100%;
+    max-width: 590px;
+    padding: 0 0 60px 0;
+}
+
+/*block-footer*/
+.footer{
+    background: var(--black);
+    min-width: 300px;
+}
+
+.logo-ps-5{
+    width: 115px;
+    height: 50px;
+}
+
+.logo-ps-4{
+    width: 120px;
+    height: 50px;
+}
+
+.logo-xbox-x{
+    width: 196px;
+    height: 50px;
+}
+
+.logo-xbox-one{
+    width: 125px;
+    height: 50px;
+}
+
+.logo-pc{
+    width: 32px;
+    height: 50px;
+}
+
+.logo-ns{
+    width: 50px;
+    height: 50px;
+}
+
+.avalanche-logo{
+    width: 100px;
+    height: 16px;
+    padding: 16px 0;
+    margin: 0 15px 0 0;
+}
+.esrb-teen{
+    margin: 0 0 0 25px;
+    height: auto;
+    width: 100%;
+    max-width: 255px;
+}
+
+.copyright{
+    padding: 60px 0;
+}
+
+.copyright-text{
+    font-size: 14px;
+    height: auto;
+    width: 100%;
+    max-width: 633px;
+}
+
+@media screen and (max-width:767px) {
+    .container{
+        justify-content: center;
+        align-items: center;
+    }
+
+    .burger {
+        display: flex;
+    }
+
+    .navigation, #burger-check, .line {
+        display: none;
+    }
+
+    .cover{
+        background: none;
+    }
+
+    .platforms-logo{
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #burger-check:checked~.navigation {
+        display: block;
+        flex-direction: column;
+        width: 160px;
+        padding: 5px;
+        height: 80px;
+        position: absolute;
+        top: 0px;
+        right: 55px;
+        border: 1px solid var(--white);
+        border-radius: 5px;
+        background: var(--gray);
+    }
+
+    .navigation li a {
+        margin: 5px;
+        border-bottom: 2px solid var(--white);
+    }
+}
